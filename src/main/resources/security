@@ -1,0 +1,37 @@
+public interface SecurityManager {
+
+  /**
+   * Initialize the SecurityManager. This is invoked when a cache is created
+   *
+   * @param securityProps the security properties obtained using a call to
+   *        {@link DistributedSystem#getSecurityProperties}
+   * @throws AuthenticationFailedException if some exception occurs during the initialization
+   */
+  default void init(Properties securityProps) {}
+
+  /**
+   * Verify the credentials provided in the properties
+   *
+   * @param credentials it contains the security-username and security-password as keys of the
+   *        properties
+   * @return a serializable principal object
+   * @throws AuthenticationFailedException
+   */
+  Object authenticate(Properties credentials) throws AuthenticationFailedException;
+
+  /**
+   * Authorize the ResourcePermission for a given Principal
+   *
+   * @param principal The principal that's requesting the permission
+   * @param permission The permission requested
+   * @return true if authorized, false if not
+   */
+  default boolean authorize(Object principal, ResourcePermission permission) {
+    return true;
+  }
+
+  /**
+   * Close any resources used by the SecurityManager, called when a cache is closed.
+   */
+  default void close() {}
+}
