@@ -22,6 +22,8 @@ public class GemfireTestsApplication implements CommandLineRunner {
 
         test.startGemfireServer(gemfireTestConfiguration.getHostname(), gemfireTestConfiguration.getPort());
         test.fillRegions();
+        test.getKey();
+        test.queryValue();
 
     }
 

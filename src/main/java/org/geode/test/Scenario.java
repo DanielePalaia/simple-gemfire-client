@@ -4,11 +4,15 @@ import org.apache.geode.cache.Region;
 import org.apache.geode.cache.client.ClientRegionShortcut;
 import org.apache.geode.cache.client.*;
 import org.apache.geode.pdx.ReflectionBasedAutoSerializer;
+import org.apache.geode.cache.query.Query;
+import org.apache.geode.cache.query.QueryService;
+import org.apache.geode.cache.query.SelectResults;
+
 
 public class Scenario {
 
     // Number of entry to insert for the experiment
-    private static int numberOfElements=1000000;
+    private static int numberOfElements=10000;
     //Region reference
     private Region<String, Car> carRegion;
 
@@ -24,7 +28,7 @@ public class Scenario {
 
         carRegion = cacheDefault
                 .<String, Car>createClientRegionFactory(ClientRegionShortcut.CACHING_PROXY)
-                .create("CARS");
+                .create("Cars");
 
         System.out.println("Cache server successfully started");
     }
@@ -42,6 +46,41 @@ public class Scenario {
         System.out.println();
     }
 
+    public void getKey()   {
+        System.out.println("Trying to get a key: mytag");
+        Car myCar = (Car) carRegion.get("mytag");
+        System.out.println("idTag: " + myCar.getIdTag() + "   model: " + myCar.getModel() + "   manufacturer: " + myCar.getManufacturer());
+    }
+
+    public void queryValue() {
+
+        String queryString = "SELECT * FROM /" + carRegion.getName() + " Car where Car.model='Giulietta" + "'";
+
+        // Get QueryService from Cache.
+        QueryService queryService = cacheDefault.getQueryService();
+
+        // Create the Query Object.
+        Query query = queryService.newQuery(queryString);
+
+        // Execute Query locally. Returns results set.
+        SelectResults results = null;
+        try {
+            results = (SelectResults) query.execute();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        if (results.size() == 0) {
+            System.out.println("Element not found");
+        } else {
+            for (Object car : results) {
+
+                // Iterate through your ResultSet.
+                Car myCar = (Car) car;
+                System.out.println("idTag: " + myCar.getIdTag() + "   model: " + myCar.getModel() + "   manufacturer: " + myCar.getManufacturer());
+            }
+        }
+    }
 
 
     public void fillRegion(Region region)   {
@@ -51,5 +90,7 @@ public class Scenario {
             newCar.random();
             region.create(newCar.getIdTag(), newCar);
         }
+        newCar.setIdTag("mytag");
+        region.create("mytag", newCar);
     }
 }

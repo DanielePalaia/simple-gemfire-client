@@ -2,8 +2,6 @@
 
 package org.geode.test;
 
-import java.io.Serializable;
-
 public class Car  {
 
     public Car() {}
