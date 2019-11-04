@@ -19,18 +19,18 @@ public class Scenario {
     // We create 3 different caches for 3 different region (without index, with index and resolved regions)
     private ClientCache cacheDefault;
 
-    public void startGemfireServer(String host, String port)   {
-        System.out.println("Attempting to start cache server");
+    public void connectToGemfire(String host, String port)   {
         cacheDefault = new ClientCacheFactory()
-                .addPoolLocator(host, Integer.valueOf(port))
+                .setPdxReadSerialized(true)
                 .setPdxSerializer(new ReflectionBasedAutoSerializer("org.geode.test.*"))
+                .addPoolLocator(host, Integer.valueOf(port))
                 .create();
 
         carRegion = cacheDefault
                 .<String, Car>createClientRegionFactory(ClientRegionShortcut.CACHING_PROXY)
                 .create("Cars");
 
-        System.out.println("Cache server successfully started");
+        System.out.println("Successfully connected to the distributed system");
     }
 
     public void fillRegions()  {

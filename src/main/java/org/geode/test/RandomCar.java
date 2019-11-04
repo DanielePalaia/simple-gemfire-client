@@ -3,6 +3,10 @@ package org.geode.test;
 import java.io.Serializable;
 import java.util.Random;
 import java.util.UUID;
+import org.apache.geode.pdx.PdxReader;
+import org.apache.geode.pdx.PdxSerializer;
+import org.apache.geode.pdx.PdxWriter;
+import org.apache.geode.cache.Declarable;
 
 public class RandomCar extends Car  {
 
@@ -46,4 +50,11 @@ public class RandomCar extends Car  {
                break;
        }
    }
+    public boolean toData(Object o, PdxWriter writer)   {
+        return true;
+    }
+
+    public Object fromData(Class<?> clazz, PdxReader reader)  {
+        return null;
+    }
 }

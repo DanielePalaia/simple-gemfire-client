@@ -20,10 +20,8 @@ public class GemfireTestsApplication implements CommandLineRunner {
 
         Scenario test = new Scenario();
 
-        test.startGemfireServer(gemfireTestConfiguration.getHostname(), gemfireTestConfiguration.getPort());
+        test.connectToGemfire(gemfireTestConfiguration.getHostname(), gemfireTestConfiguration.getPort());
         test.fillRegions();
-        test.getKey();
-        test.queryValue();
 
     }
 

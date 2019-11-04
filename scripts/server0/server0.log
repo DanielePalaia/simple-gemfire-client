@@ -1,0 +1,1050 @@
+
+[info 2019/11/01 10:22:57.275 CET server0 <main> tid=0x1] Startup Configuration:
+   ### GemFire Properties defined with system property ###
+  http-service-bind-address=localhost
+  http-service-port=8080
+  start-dev-rest-api=true
+  use-cluster-configuration=true
+  ### GemFire Properties defined with api ###
+  name=server0
+  ### GemFire Properties defined with launcher ###
+  locators=192.168.1.5[10334]
+  log-file=/Users/dpalaia/fca2/scripts/server0/server0.log
+  ### GemFire Properties using default values ###
+  ack-severe-alert-threshold=0
+  ack-wait-threshold=15
+  archive-disk-space-limit=0
+  archive-file-size-limit=0
+  async-distribution-timeout=0
+  async-max-queue-size=8
+  async-queue-timeout=60000
+  bind-address=
+  cache-xml-file=cache.xml
+  cluster-configuration-dir=
+  cluster-ssl-ciphers=any
+  cluster-ssl-enabled=false
+  cluster-ssl-keystore=
+  cluster-ssl-keystore-password=
+  cluster-ssl-keystore-type=
+  cluster-ssl-protocols=any
+  cluster-ssl-require-authentication=true
+  cluster-ssl-truststore=
+  cluster-ssl-truststore-password=
+  conflate-events=server
+  conserve-sockets=true
+  delta-propagation=true
+  deploy-working-dir=/Users/dpalaia/fca2/scripts/server0
+  disable-auto-reconnect=false
+  disable-tcp=false
+  distributed-system-id=-1
+  distributed-transactions=false
+  durable-client-id=
+  durable-client-timeout=300
+  enable-cluster-configuration=true
+  enable-network-partition-detection=true
+  enable-time-statistics=false
+  enforce-unique-host=false
+  gateway-ssl-ciphers=any
+  gateway-ssl-enabled=false
+  gateway-ssl-keystore=
+  gateway-ssl-keystore-password=
+  gateway-ssl-keystore-type=
+  gateway-ssl-protocols=any
+  gateway-ssl-require-authentication=true
+  gateway-ssl-truststore=
+  gateway-ssl-truststore-password=
+  groups=
+  http-service-ssl-ciphers=any
+  http-service-ssl-enabled=false
+  http-service-ssl-keystore=
+  http-service-ssl-keystore-password=
+  http-service-ssl-keystore-type=
+  http-service-ssl-protocols=any
+  http-service-ssl-require-authentication=false
+  http-service-ssl-truststore=
+  http-service-ssl-truststore-password=
+  jmx-manager=false
+  jmx-manager-access-file=
+  jmx-manager-bind-address=
+  jmx-manager-hostname-for-clients=
+  jmx-manager-http-port=8080
+  jmx-manager-password-file=
+  jmx-manager-port=1099
+  jmx-manager-ssl-ciphers=any
+  jmx-manager-ssl-enabled=false
+  jmx-manager-ssl-keystore=
+  jmx-manager-ssl-keystore-password=
+  jmx-manager-ssl-keystore-type=
+  jmx-manager-ssl-protocols=any
+  jmx-manager-ssl-require-authentication=true
+  jmx-manager-ssl-truststore=
+  jmx-manager-ssl-truststore-password=
+  jmx-manager-start=false
+  jmx-manager-update-rate=2000
+  load-cluster-configuration-from-dir=false
+  locator-wait-time=0
+  lock-memory=false
+  log-disk-space-limit=0
+  log-file-size-limit=0
+  log-level=config
+  max-num-reconnect-tries=3
+  max-wait-time-reconnect=60000
+  mcast-address=239.192.81.1
+  mcast-flow-control=1048576, 0.25, 5000
+  mcast-port=0
+  mcast-recv-buffer-size=1048576
+  mcast-send-buffer-size=65535
+  mcast-ttl=32
+  member-timeout=5000
+  membership-port-range=1024-65535
+  memcached-bind-address=
+  memcached-port=0
+  memcached-protocol=ASCII
+  off-heap-memory-size=
+  redis-bind-address=
+  redis-password=
+  redis-port=0
+  redundancy-zone=
+  remote-locators=
+  remove-unresponsive-client=false
+  roles=
+  security-client-accessor=
+  security-client-accessor-pp=
+  security-client-auth-init=
+  security-client-authenticator=
+  security-client-dhalgo=
+  security-log-file=
+  security-log-level=config
+  security-manager=
+  security-peer-auth-init=
+  security-peer-authenticator=
+  security-peer-verifymember-timeout=1000
+  security-post-processor=
+  security-udp-dhalgo=
+  serializable-object-filter=!*
+  server-bind-address=
+  server-ssl-ciphers=any
+  server-ssl-enabled=false
+  server-ssl-keystore=
+  server-ssl-keystore-password=
+  server-ssl-keystore-type=
+  server-ssl-protocols=any
+  server-ssl-require-authentication=true
+  server-ssl-truststore=
+  server-ssl-truststore-password=
+  socket-buffer-size=32768
+  socket-lease-time=60000
+  ssl-ciphers=any
+  ssl-cluster-alias=
+  ssl-default-alias=
+  ssl-enabled-components=
+  ssl-gateway-alias=
+  ssl-jmx-alias=
+  ssl-keystore=
+  ssl-keystore-password=
+  ssl-keystore-type=
+  ssl-locator-alias=
+  ssl-protocols=any
+  ssl-require-authentication=true
+  ssl-server-alias=
+  ssl-truststore=
+  ssl-truststore-password=
+  ssl-truststore-type=
+  ssl-web-alias=
+  ssl-web-require-authentication=false
+  start-locator=
+  statistic-archive-file=
+  statistic-sample-rate=1000
+  statistic-sampling-enabled=true
+  tcp-port=0
+  udp-fragment-size=60000
+  udp-recv-buffer-size=1048576
+  udp-send-buffer-size=65535
+  user-command-packages=
+  validate-serializable-objects=false
+  
+
+[info 2019/11/01 10:22:57.298 CET server0 <main> tid=0x1] 
+  ---------------------------------------------------------------------------
+    
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with this
+    work for additional information regarding copyright ownership.
+     
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with the
+    License.  You may obtain a copy of the License at
+    
+    http://www.apache.org/licenses/LICENSE-2.0
+    
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
+    License for the specific language governing permissions and limitations
+    under the License.
+    
+  ---------------------------------------------------------------------------
+  Build-Date: 2018-01-27 01:04:22 +0000
+  Build-Id: root 12
+  Build-Java-Version: 1.8.0_161
+  Build-Platform: Linux 4.4.0-62-generic amd64
+  GemFire-Source-Date: 2018-01-12 16:54:53 +0000
+  GemFire-Source-Repository: support/9.3
+  GemFire-Source-Revision: 65ac182e9236ed9afb50dcf960212a5d6f3ef527
+  Product-Name: Pivotal GemFire
+  Product-Version: 9.3.0
+  Source-Date: 2018-01-26 16:35:20 +0000
+  Source-Repository: support/9.3
+  Source-Revision: 47d3d26957f6378f711698868350dafb996d7e10
+  Native version: native code unavailable
+  Running on: /192.168.1.5, 8 cpu(s), x86_64 Mac OS X 10.12.6 
+  Communications version: 75
+  Process ID: 62378
+  User: dpalaia
+  Current dir: /Users/dpalaia/fca2/scripts/server0
+  Home dir: /Users/dpalaia
+  Command Line Parameters:
+    -Dgemfire.default.locators=192.168.1.5[10334]
+    -Dgemfire.http-service-port=8080
+    -Dgemfire.start-dev-rest-api=true
+    -Dgemfire.http-service-bind-address=localhost
+    -Dgemfire.use-cluster-configuration=true
+    -XX:OnOutOfMemoryError=kill -KILL %p
+    -Dgemfire.launcher.registerSignalHandlers=true
+    -Djava.awt.headless=true
+    -Dsun.rmi.dgc.server.gcInterval=9223372036854775806
+  Class Path:
+    /Users/dpalaia/Downloads/pivotal-gemfire-9.3.0/lib/geode-core-9.3.0.jar
+    /Users/dpalaia/Downloads/pivotal-gemfire-9.3.0/lib/geode-dependencies.jar
+  Library Path:
+    /Users/dpalaia/Library/Java/Extensions
+    /Library/Java/Extensions
+    /Network/Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+    .
+  System Properties:
+      awt.toolkit = sun.lwawt.macosx.LWCToolkit
+      file.encoding = UTF-8
+      file.encoding.pkg = sun.io
+      file.separator = /
+      ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+      gemfire.default.locators = 192.168.1.5[10334]
+      gemfire.http-service-bind-address = localhost
+      gemfire.http-service-port = 8080
+      gemfire.launcher.registerSignalHandlers = true
+      gemfire.start-dev-rest-api = true
+      gemfire.use-cluster-configuration = true
+      gopherProxySet = false
+      http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+      java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+      java.awt.headless = true
+      java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+      java.class.version = 52.0
+      java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/endorsed
+      java.ext.dirs = /Users/dpalaia/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+      java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre
+      java.io.tmpdir = /var/folders/w0/w1p4cqgd0bg8rzw7mz129rbw0000gn/T/
+      java.runtime.name = Java(TM) SE Runtime Environment
+      java.runtime.version = 1.8.0_151-b12
+      java.specification.name = Java Platform API Specification
+      java.specification.vendor = Oracle Corporation
+      java.specification.version = 1.8
+      java.vendor = Oracle Corporation
+      java.vendor.url = http://java.oracle.com/
+      java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+      java.version = 1.8.0_151
+      java.vm.info = mixed mode
+      java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+      java.vm.specification.name = Java Virtual Machine Specification
+      java.vm.specification.vendor = Oracle Corporation
+      java.vm.specification.version = 1.8
+      java.vm.vendor = Oracle Corporation
+      java.vm.version = 25.151-b12
+      jna.platform.library.path = /usr/lib:/usr/lib
+      jnidispatch.path = /var/folders/w0/w1p4cqgd0bg8rzw7mz129rbw0000gn/T/jna-1855415330/jna409928426356265896.tmp
+      line.separator = 
+      os.version = 10.12.6
+      path.separator = :
+      socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+      sun.arch.data.model = 64
+      sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/classes
+      sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib
+      sun.cpu.endian = little
+      sun.cpu.isalist = 
+      sun.io.unicode.encoding = UnicodeBig
+      sun.java.command = org.apache.geode.distributed.ServerLauncher start server0 --server-port=40404
+      sun.java.launcher = SUN_STANDARD
+      sun.jnu.encoding = UTF-8
+      sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+      sun.nio.ch.bugLevel = 
+      sun.os.patch.level = unknown
+      sun.rmi.dgc.server.gcInterval = 9223372036854775806
+      user.country = GB
+      user.language = en
+      user.timezone = Europe/Rome
+  Log4J 2 Configuration:
+      jar:file:/Users/dpalaia/Downloads/pivotal-gemfire-9.3.0/lib/geode-core-9.3.0.jar!/log4j2.xml
+  ---------------------------------------------------------------------------
+  
+
+[info 2019/11/01 10:22:57.305 CET server0 <main> tid=0x1] Startup Configuration:
+   ### GemFire Properties defined with system property ###
+  http-service-bind-address=localhost
+  http-service-port=8080
+  start-dev-rest-api=true
+  use-cluster-configuration=true
+  ### GemFire Properties defined with api ###
+  name=server0
+  ### GemFire Properties defined with launcher ###
+  locators=192.168.1.5[10334]
+  log-file=/Users/dpalaia/fca2/scripts/server0/server0.log
+  ### GemFire Properties using default values ###
+  ack-severe-alert-threshold=0
+  ack-wait-threshold=15
+  archive-disk-space-limit=0
+  archive-file-size-limit=0
+  async-distribution-timeout=0
+  async-max-queue-size=8
+  async-queue-timeout=60000
+  bind-address=
+  cache-xml-file=cache.xml
+  cluster-configuration-dir=
+  cluster-ssl-ciphers=any
+  cluster-ssl-enabled=false
+  cluster-ssl-keystore=
+  cluster-ssl-keystore-password=
+  cluster-ssl-keystore-type=
+  cluster-ssl-protocols=any
+  cluster-ssl-require-authentication=true
+  cluster-ssl-truststore=
+  cluster-ssl-truststore-password=
+  conflate-events=server
+  conserve-sockets=true
+  delta-propagation=true
+  deploy-working-dir=/Users/dpalaia/fca2/scripts/server0
+  disable-auto-reconnect=false
+  disable-tcp=false
+  distributed-system-id=-1
+  distributed-transactions=false
+  durable-client-id=
+  durable-client-timeout=300
+  enable-cluster-configuration=true
+  enable-network-partition-detection=true
+  enable-time-statistics=false
+  enforce-unique-host=false
+  gateway-ssl-ciphers=any
+  gateway-ssl-enabled=false
+  gateway-ssl-keystore=
+  gateway-ssl-keystore-password=
+  gateway-ssl-keystore-type=
+  gateway-ssl-protocols=any
+  gateway-ssl-require-authentication=true
+  gateway-ssl-truststore=
+  gateway-ssl-truststore-password=
+  groups=
+  http-service-ssl-ciphers=any
+  http-service-ssl-enabled=false
+  http-service-ssl-keystore=
+  http-service-ssl-keystore-password=
+  http-service-ssl-keystore-type=
+  http-service-ssl-protocols=any
+  http-service-ssl-require-authentication=false
+  http-service-ssl-truststore=
+  http-service-ssl-truststore-password=
+  jmx-manager=false
+  jmx-manager-access-file=
+  jmx-manager-bind-address=
+  jmx-manager-hostname-for-clients=
+  jmx-manager-http-port=8080
+  jmx-manager-password-file=
+  jmx-manager-port=1099
+  jmx-manager-ssl-ciphers=any
+  jmx-manager-ssl-enabled=false
+  jmx-manager-ssl-keystore=
+  jmx-manager-ssl-keystore-password=
+  jmx-manager-ssl-keystore-type=
+  jmx-manager-ssl-protocols=any
+  jmx-manager-ssl-require-authentication=true
+  jmx-manager-ssl-truststore=
+  jmx-manager-ssl-truststore-password=
+  jmx-manager-start=false
+  jmx-manager-update-rate=2000
+  load-cluster-configuration-from-dir=false
+  locator-wait-time=0
+  lock-memory=false
+  log-disk-space-limit=0
+  log-file-size-limit=0
+  log-level=config
+  max-num-reconnect-tries=3
+  max-wait-time-reconnect=60000
+  mcast-address=239.192.81.1
+  mcast-flow-control=1048576, 0.25, 5000
+  mcast-port=0
+  mcast-recv-buffer-size=1048576
+  mcast-send-buffer-size=65535
+  mcast-ttl=32
+  member-timeout=5000
+  membership-port-range=1024-65535
+  memcached-bind-address=
+  memcached-port=0
+  memcached-protocol=ASCII
+  off-heap-memory-size=
+  redis-bind-address=
+  redis-password=
+  redis-port=0
+  redundancy-zone=
+  remote-locators=
+  remove-unresponsive-client=false
+  roles=
+  security-client-accessor=
+  security-client-accessor-pp=
+  security-client-auth-init=
+  security-client-authenticator=
+  security-client-dhalgo=
+  security-log-file=
+  security-log-level=config
+  security-manager=
+  security-peer-auth-init=
+  security-peer-authenticator=
+  security-peer-verifymember-timeout=1000
+  security-post-processor=
+  security-udp-dhalgo=
+  serializable-object-filter=!*
+  server-bind-address=
+  server-ssl-ciphers=any
+  server-ssl-enabled=false
+  server-ssl-keystore=
+  server-ssl-keystore-password=
+  server-ssl-keystore-type=
+  server-ssl-protocols=any
+  server-ssl-require-authentication=true
+  server-ssl-truststore=
+  server-ssl-truststore-password=
+  socket-buffer-size=32768
+  socket-lease-time=60000
+  ssl-ciphers=any
+  ssl-cluster-alias=
+  ssl-default-alias=
+  ssl-enabled-components=
+  ssl-gateway-alias=
+  ssl-jmx-alias=
+  ssl-keystore=
+  ssl-keystore-password=
+  ssl-keystore-type=
+  ssl-locator-alias=
+  ssl-protocols=any
+  ssl-require-authentication=true
+  ssl-server-alias=
+  ssl-truststore=
+  ssl-truststore-password=
+  ssl-truststore-type=
+  ssl-web-alias=
+  ssl-web-require-authentication=false
+  start-locator=
+  statistic-archive-file=
+  statistic-sample-rate=1000
+  statistic-sampling-enabled=true
+  tcp-port=0
+  udp-fragment-size=60000
+  udp-recv-buffer-size=1048576
+  udp-send-buffer-size=65535
+  user-command-packages=
+  validate-serializable-objects=false
+  
+
+[info 2019/11/01 10:22:57.311 CET server0 <main> tid=0x1] initializing InternalDataSerializer with 3 services
+
+[info 2019/11/01 10:22:57.452 CET server0 <main> tid=0x1] Starting membership services
+
+[info 2019/11/01 10:22:57.546 CET server0 <main> tid=0x1] JGroups channel created (took 94ms)
+
+[info 2019/11/01 10:22:57.573 CET server0 <main> tid=0x1] GemFire P2P Listener started on /192.168.1.5:41546
+
+[info 2019/11/01 10:22:57.575 CET server0 <Geode Failure Detection Server thread 0> tid=0x1f] Started failure detection server thread on /192.168.1.5:62793.
+
+[info 2019/11/01 10:22:57.596 CET server0 <main> tid=0x1] Attempting to join the distributed system through coordinator 192.168.1.5(locator0:62322:locator)<ec><v0>:1024 using address 192.168.1.5(server0:62378):1025
+
+[info 2019/11/01 10:22:57.927 CET server0 <unicast receiver,Danieles-MBP-50658> tid=0x1b] received new view: View[192.168.1.5(locator0:62322:locator)<ec><v0>:1024|1] members: [192.168.1.5(locator0:62322:locator)<ec><v0>:1024, 192.168.1.5(server0:62378)<v1>:1025{lead}]
+  old view is: null
+
+[info 2019/11/01 10:22:57.933 CET server0 <main> tid=0x1] Finished joining (took 357ms).
+
+[info 2019/11/01 10:22:57.933 CET server0 <main> tid=0x1] Starting DistributionManager 192.168.1.5(server0:62378)<v1>:1025.  (took 588 ms)
+
+[info 2019/11/01 10:22:57.935 CET server0 <main> tid=0x1] Initial (distribution manager) view =  View[192.168.1.5(locator0:62322:locator)<ec><v0>:1024|1] members: [192.168.1.5(locator0:62322:locator)<ec><v0>:1024, 192.168.1.5(server0:62378)<v1>:1025{lead}]
+
+[info 2019/11/01 10:22:57.936 CET server0 <main> tid=0x1] Admitting member <192.168.1.5(locator0:62322:locator)<ec><v0>:1024>. Now there are 1 non-admin member(s).
+
+[info 2019/11/01 10:22:57.937 CET server0 <main> tid=0x1] Admitting member <192.168.1.5(server0:62378)<v1>:1025>. Now there are 2 non-admin member(s).
+
+[info 2019/11/01 10:22:57.958 CET server0 <P2P message reader for 192.168.1.5(locator0:62322:locator)<ec><v0>:1024 shared unordered uid=1 port=52555> tid=0x25] Member 192.168.1.5(locator0:62322:locator)<ec><v0>:1024 is equivalent or in the same redundancy zone.
+
+[info 2019/11/01 10:22:58.019 CET server0 <main> tid=0x1] Received cluster configuration from the locator
+
+[info 2019/11/01 10:22:58.057 CET server0 <main> tid=0x1] 
+  ***************************************************************
+  Configuration for  'cluster'
+  
+  Jar files to deployed
+  <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <cache xmlns="http://geode.apache.org/schema/cache" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" copy-on-read="false" is-server="false" lock-lease="120" lock-timeout="60" search-timeout="300" version="1.0" xsi:schemaLocation="http://geode.apache.org/schema/cache http://geode.apache.org/schema/cache/cache-1.0.xsd">
+  <pdx read-serialized="true"/>
+  </cache>
+  
+
+[info 2019/11/01 10:22:58.155 CET server0 <main> tid=0x1] Requesting cluster configuration
+
+[info 2019/11/01 10:22:58.216 CET server0 <main> tid=0x1] Initializing region _monitoringRegion_192.168.1.5<v1>1025
+
+[info 2019/11/01 10:22:58.226 CET server0 <main> tid=0x1] Region _monitoringRegion_192.168.1.5<v1>1025 requesting initial image from 192.168.1.5(locator0:62322:locator)<ec><v0>:1024
+
+[info 2019/11/01 10:22:58.230 CET server0 <main> tid=0x1] _monitoringRegion_192.168.1.5<v1>1025 is done getting image from 192.168.1.5(locator0:62322:locator)<ec><v0>:1024. isDeltaGII is false
+
+[info 2019/11/01 10:22:58.231 CET server0 <main> tid=0x1] Initialization of region _monitoringRegion_192.168.1.5<v1>1025 completed
+
+[info 2019/11/01 10:22:58.656 CET server0 <main> tid=0x1] Initialized cache service org.apache.geode.connectors.jdbc.internal.JdbcConnectorServiceImpl
+
+[info 2019/11/01 10:22:58.678 CET server0 <main> tid=0x1] Initialized cache service org.apache.geode.cache.lucene.internal.LuceneServiceImpl
+
+[info 2019/11/01 10:22:58.680 CET server0 <main> tid=0x1] Initialized cache service com.gemstone.gemfire.OldClientSupportProvider
+
+[info 2019/11/01 10:22:58.866 CET server0 <main> tid=0x1] Initializing region PdxTypes
+
+[info 2019/11/01 10:22:58.868 CET server0 <main> tid=0x1] Initialization of region PdxTypes completed
+
+[info 2019/11/01 10:22:58.937 CET server0 <main> tid=0x1] Cache server connection listener bound to address danieles-mbp.station-0.0.0.0/0.0.0.0:40404 with backlog 1,000.
+
+[info 2019/11/01 10:22:58.949 CET server0 <main> tid=0x1] ClientHealthMonitorThread maximum allowed time between pings: 60,000
+
+[warning 2019/11/01 10:22:58.951 CET server0 <main> tid=0x1] Handshaker max Pool size: 4
+
+[info 2019/11/01 10:22:58.961 CET server0 <main> tid=0x1] CacheServer Configuration:   port=40404 max-connections=800 max-threads=0 notify-by-subscription=true socket-buffer-size=32768 maximum-time-between-pings=60000 maximum-message-count=230000 message-time-to-live=180 eviction-policy=none capacity=1 overflow directory=. groups=[] loadProbe=ConnectionCountProbe loadPollInterval=5000 tcpNoDelay=true
+
+[info 2019/11/01 10:22:58.977 CET server0 <main> tid=0x1] Attempting to start HTTP service on port (8080) at bind-address (localhost)...
+
+[info 2019/11/01 10:22:58.977 CET server0 <main> tid=0x1] GEODE_HOME:/Users/dpalaia/Downloads/pivotal-gemfire-9.3.0
+
+[info 2019/11/01 10:22:58.977 CET server0 <main> tid=0x1] geode-web-api war found: /Users/dpalaia/Downloads/pivotal-gemfire-9.3.0/tools/Extensions/geode-web-api-9.3.0.war
+
+[info 2019/11/01 10:23:07.265 CET server0 <main> tid=0x1] HTTP service started successfully...!!
+
+[info 2019/11/01 10:23:07.266 CET server0 <main> tid=0x1] Initializing region __ParameterizedQueries__
+
+[info 2019/11/01 10:23:07.267 CET server0 <main> tid=0x1] Initialization of region __ParameterizedQueries__ completed
+
+[info 2019/11/01 10:23:28.733 CET server0 <Function Execution Processor1> tid=0x53] Initializing region __PR
+
+[info 2019/11/01 10:23:28.735 CET server0 <Function Execution Processor1> tid=0x53] Initialization of region __PR completed
+
+[info 2019/11/01 10:23:28.775 CET server0 <Function Execution Processor1> tid=0x53] Partitioned Region /Cars is born with prId=1 ident:#Cars
+
+[info 2019/11/01 10:23:28.826 CET server0 <Function Execution Processor1> tid=0x53] XmlEntity:searchString: //cache:region[@name='Cars']
+
+[info 2019/11/01 10:23:55.314 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Adding new type: PdxType[dsid=0, typenum=14614096
+          name=org.geode.test.RandomCar
+          fields=[
+          idTag:String:0:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=-1
+          manufacturer:String:1:1:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=1
+          model:String:2:2:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=2
+          colour:String:3:3:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=3
+          date:String:4:4:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=4]]
+
+[info 2019/11/01 10:23:55.342 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Caching PdxType[dsid=0, typenum=14614096
+          name=org.geode.test.RandomCar
+          fields=[
+          idTag:String:0:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=-1
+          manufacturer:String:1:1:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=1
+          model:String:2:2:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=2
+          colour:String:3:3:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=3
+          date:String:4:4:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=4]]
+
+[info 2019/11/01 10:23:55.364 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_6
+
+[info 2019/11/01 10:23:55.365 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_6 completed
+
+[info 2019/11/01 10:23:55.393 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_42
+
+[info 2019/11/01 10:23:55.393 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_42 completed
+
+[info 2019/11/01 10:23:55.396 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_67
+
+[info 2019/11/01 10:23:55.397 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_67 completed
+
+[info 2019/11/01 10:23:55.400 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_21
+
+[info 2019/11/01 10:23:55.400 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_21 completed
+
+[info 2019/11/01 10:23:55.403 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_7
+
+[info 2019/11/01 10:23:55.403 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_7 completed
+
+[info 2019/11/01 10:23:55.407 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_35
+
+[info 2019/11/01 10:23:55.407 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_35 completed
+
+[info 2019/11/01 10:23:55.409 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_50
+
+[info 2019/11/01 10:23:55.410 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_50 completed
+
+[info 2019/11/01 10:23:55.412 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_80
+
+[info 2019/11/01 10:23:55.412 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_80 completed
+
+[info 2019/11/01 10:23:55.416 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_111
+
+[info 2019/11/01 10:23:55.416 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_111 completed
+
+[info 2019/11/01 10:23:55.419 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_1
+
+[info 2019/11/01 10:23:55.419 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_1 completed
+
+[info 2019/11/01 10:23:55.422 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_79
+
+[info 2019/11/01 10:23:55.422 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_79 completed
+
+[info 2019/11/01 10:23:55.425 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_8
+
+[info 2019/11/01 10:23:55.425 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_8 completed
+
+[info 2019/11/01 10:23:55.429 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_57
+
+[info 2019/11/01 10:23:55.429 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_57 completed
+
+[info 2019/11/01 10:23:55.433 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_20
+
+[info 2019/11/01 10:23:55.433 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_20 completed
+
+[info 2019/11/01 10:23:55.436 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_90
+
+[info 2019/11/01 10:23:55.436 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_90 completed
+
+[info 2019/11/01 10:23:55.440 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_17
+
+[info 2019/11/01 10:23:55.440 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_17 completed
+
+[info 2019/11/01 10:23:55.444 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_26
+
+[info 2019/11/01 10:23:55.444 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_26 completed
+
+[info 2019/11/01 10:23:55.447 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_49
+
+[info 2019/11/01 10:23:55.447 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_49 completed
+
+[info 2019/11/01 10:23:55.451 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_15
+
+[info 2019/11/01 10:23:55.451 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_15 completed
+
+[info 2019/11/01 10:23:55.454 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_99
+
+[info 2019/11/01 10:23:55.455 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_99 completed
+
+[info 2019/11/01 10:23:55.458 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_33
+
+[info 2019/11/01 10:23:55.459 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_33 completed
+
+[info 2019/11/01 10:23:55.461 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_78
+
+[info 2019/11/01 10:23:55.462 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_78 completed
+
+[info 2019/11/01 10:23:55.465 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_61
+
+[info 2019/11/01 10:23:55.465 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_61 completed
+
+[info 2019/11/01 10:23:55.468 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_16
+
+[info 2019/11/01 10:23:55.468 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_16 completed
+
+[info 2019/11/01 10:23:55.472 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_103
+
+[info 2019/11/01 10:23:55.472 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_103 completed
+
+[info 2019/11/01 10:23:55.475 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_29
+
+[info 2019/11/01 10:23:55.475 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_29 completed
+
+[info 2019/11/01 10:23:55.478 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_59
+
+[info 2019/11/01 10:23:55.478 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_59 completed
+
+[info 2019/11/01 10:23:55.482 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_11
+
+[info 2019/11/01 10:23:55.482 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_11 completed
+
+[info 2019/11/01 10:23:55.485 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_110
+
+[info 2019/11/01 10:23:55.486 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_110 completed
+
+[info 2019/11/01 10:23:55.489 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_25
+
+[info 2019/11/01 10:23:55.489 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_25 completed
+
+[info 2019/11/01 10:23:55.492 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_85
+
+[info 2019/11/01 10:23:55.492 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_85 completed
+
+[info 2019/11/01 10:23:55.496 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_38
+
+[info 2019/11/01 10:23:55.496 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_38 completed
+
+[info 2019/11/01 10:23:55.500 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_44
+
+[info 2019/11/01 10:23:55.500 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_44 completed
+
+[info 2019/11/01 10:23:55.503 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_53
+
+[info 2019/11/01 10:23:55.503 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_53 completed
+
+[info 2019/11/01 10:23:55.506 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_106
+
+[info 2019/11/01 10:23:55.507 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_106 completed
+
+[info 2019/11/01 10:23:55.509 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_70
+
+[info 2019/11/01 10:23:55.510 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_70 completed
+
+[info 2019/11/01 10:23:55.513 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_66
+
+[info 2019/11/01 10:23:55.513 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_66 completed
+
+[info 2019/11/01 10:23:55.516 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_109
+
+[info 2019/11/01 10:23:55.516 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_109 completed
+
+[info 2019/11/01 10:23:55.521 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_93
+
+[info 2019/11/01 10:23:55.522 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_93 completed
+
+[info 2019/11/01 10:23:55.528 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_24
+
+[info 2019/11/01 10:23:55.528 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_24 completed
+
+[info 2019/11/01 10:23:55.534 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_18
+
+[info 2019/11/01 10:23:55.534 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_18 completed
+
+[info 2019/11/01 10:23:55.537 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_104
+
+[info 2019/11/01 10:23:55.538 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_104 completed
+
+[info 2019/11/01 10:23:55.542 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_107
+
+[info 2019/11/01 10:23:55.543 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_107 completed
+
+[info 2019/11/01 10:23:55.546 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_36
+
+[info 2019/11/01 10:23:55.546 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_36 completed
+
+[info 2019/11/01 10:23:55.549 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_96
+
+[info 2019/11/01 10:23:55.549 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_96 completed
+
+[info 2019/11/01 10:23:55.553 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_43
+
+[info 2019/11/01 10:23:55.553 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_43 completed
+
+[info 2019/11/01 10:23:55.557 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_60
+
+[info 2019/11/01 10:23:55.557 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_60 completed
+
+[info 2019/11/01 10:23:55.559 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_19
+
+[info 2019/11/01 10:23:55.559 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_19 completed
+
+[info 2019/11/01 10:23:55.562 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_4
+
+[info 2019/11/01 10:23:55.562 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_4 completed
+
+[info 2019/11/01 10:23:55.564 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_65
+
+[info 2019/11/01 10:23:55.565 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_65 completed
+
+[info 2019/11/01 10:23:55.569 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_54
+
+[info 2019/11/01 10:23:55.569 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_54 completed
+
+[info 2019/11/01 10:23:55.571 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_56
+
+[info 2019/11/01 10:23:55.571 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_56 completed
+
+[info 2019/11/01 10:23:55.575 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_32
+
+[info 2019/11/01 10:23:55.575 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_32 completed
+
+[info 2019/11/01 10:23:55.577 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_95
+
+[info 2019/11/01 10:23:55.577 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_95 completed
+
+[info 2019/11/01 10:23:55.580 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_2
+
+[info 2019/11/01 10:23:55.580 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_2 completed
+
+[info 2019/11/01 10:23:55.585 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_77
+
+[info 2019/11/01 10:23:55.585 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_77 completed
+
+[info 2019/11/01 10:23:55.588 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_41
+
+[info 2019/11/01 10:23:55.588 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_41 completed
+
+[info 2019/11/01 10:23:55.592 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_0
+
+[info 2019/11/01 10:23:55.593 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_0 completed
+
+[info 2019/11/01 10:23:55.597 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_37
+
+[info 2019/11/01 10:23:55.598 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_37 completed
+
+[info 2019/11/01 10:23:55.602 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_89
+
+[info 2019/11/01 10:23:55.602 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_89 completed
+
+[info 2019/11/01 10:23:55.605 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_31
+
+[info 2019/11/01 10:23:55.605 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_31 completed
+
+[info 2019/11/01 10:23:55.613 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_5
+
+[info 2019/11/01 10:23:55.614 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_5 completed
+
+[info 2019/11/01 10:23:55.621 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_105
+
+[info 2019/11/01 10:23:55.622 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_105 completed
+
+[info 2019/11/01 10:23:55.626 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_97
+
+[info 2019/11/01 10:23:55.626 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_97 completed
+
+[info 2019/11/01 10:23:55.629 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_100
+
+[info 2019/11/01 10:23:55.629 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_100 completed
+
+[info 2019/11/01 10:23:55.633 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_88
+
+[info 2019/11/01 10:23:55.633 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_88 completed
+
+[info 2019/11/01 10:23:55.635 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_27
+
+[info 2019/11/01 10:23:55.635 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_27 completed
+
+[info 2019/11/01 10:23:55.639 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_73
+
+[info 2019/11/01 10:23:55.640 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_73 completed
+
+[info 2019/11/01 10:23:55.642 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_13
+
+[info 2019/11/01 10:23:55.642 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_13 completed
+
+[info 2019/11/01 10:23:55.644 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_92
+
+[info 2019/11/01 10:23:55.644 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_92 completed
+
+[info 2019/11/01 10:23:55.647 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_102
+
+[info 2019/11/01 10:23:55.647 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_102 completed
+
+[info 2019/11/01 10:23:55.651 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_87
+
+[info 2019/11/01 10:23:55.651 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_87 completed
+
+[info 2019/11/01 10:23:55.654 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_23
+
+[info 2019/11/01 10:23:55.654 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_23 completed
+
+[info 2019/11/01 10:23:55.657 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_76
+
+[info 2019/11/01 10:23:55.657 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_76 completed
+
+[info 2019/11/01 10:23:55.664 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_72
+
+[info 2019/11/01 10:23:55.664 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_72 completed
+
+[info 2019/11/01 10:23:55.671 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_86
+
+[info 2019/11/01 10:23:55.672 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_86 completed
+
+[info 2019/11/01 10:23:55.674 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_45
+
+[info 2019/11/01 10:23:55.675 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_45 completed
+
+[info 2019/11/01 10:23:55.687 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_51
+
+[info 2019/11/01 10:23:55.687 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_51 completed
+
+[info 2019/11/01 10:23:55.692 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_30
+
+[info 2019/11/01 10:23:55.693 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_30 completed
+
+[info 2019/11/01 10:23:55.695 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_101
+
+[info 2019/11/01 10:23:55.695 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_101 completed
+
+[info 2019/11/01 10:23:55.698 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_63
+
+[info 2019/11/01 10:23:55.699 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_63 completed
+
+[info 2019/11/01 10:23:55.707 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_3
+
+[info 2019/11/01 10:23:55.707 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_3 completed
+
+[info 2019/11/01 10:23:55.709 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_62
+
+[info 2019/11/01 10:23:55.710 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_62 completed
+
+[info 2019/11/01 10:23:55.714 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_22
+
+[info 2019/11/01 10:23:55.714 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_22 completed
+
+[info 2019/11/01 10:23:55.721 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_55
+
+[info 2019/11/01 10:23:55.721 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_55 completed
+
+[info 2019/11/01 10:23:55.725 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_74
+
+[info 2019/11/01 10:23:55.725 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_74 completed
+
+[info 2019/11/01 10:23:55.732 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_9
+
+[info 2019/11/01 10:23:55.733 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_9 completed
+
+[info 2019/11/01 10:23:55.742 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_75
+
+[info 2019/11/01 10:23:55.742 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_75 completed
+
+[info 2019/11/01 10:23:55.744 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_108
+
+[info 2019/11/01 10:23:55.744 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_108 completed
+
+[info 2019/11/01 10:23:55.747 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_40
+
+[info 2019/11/01 10:23:55.747 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_40 completed
+
+[info 2019/11/01 10:23:55.750 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_47
+
+[info 2019/11/01 10:23:55.750 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_47 completed
+
+[info 2019/11/01 10:23:55.754 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_12
+
+[info 2019/11/01 10:23:55.755 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_12 completed
+
+[info 2019/11/01 10:23:55.767 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_82
+
+[info 2019/11/01 10:23:55.767 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_82 completed
+
+[info 2019/11/01 10:23:55.769 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_83
+
+[info 2019/11/01 10:23:55.769 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_83 completed
+
+[info 2019/11/01 10:23:55.773 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_84
+
+[info 2019/11/01 10:23:55.773 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_84 completed
+
+[info 2019/11/01 10:23:55.778 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_34
+
+[info 2019/11/01 10:23:55.778 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_34 completed
+
+[info 2019/11/01 10:23:55.782 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_14
+
+[info 2019/11/01 10:23:55.782 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_14 completed
+
+[info 2019/11/01 10:23:55.790 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_39
+
+[info 2019/11/01 10:23:55.791 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_39 completed
+
+[info 2019/11/01 10:23:55.799 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_10
+
+[info 2019/11/01 10:23:55.799 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_10 completed
+
+[info 2019/11/01 10:23:55.811 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_64
+
+[info 2019/11/01 10:23:55.812 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_64 completed
+
+[info 2019/11/01 10:23:55.825 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_58
+
+[info 2019/11/01 10:23:55.825 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_58 completed
+
+[info 2019/11/01 10:23:55.837 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_69
+
+[info 2019/11/01 10:23:55.837 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_69 completed
+
+[info 2019/11/01 10:23:55.862 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_71
+
+[info 2019/11/01 10:23:55.862 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_71 completed
+
+[info 2019/11/01 10:23:55.872 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_81
+
+[info 2019/11/01 10:23:55.872 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_81 completed
+
+[info 2019/11/01 10:23:55.874 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_28
+
+[info 2019/11/01 10:23:55.874 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_28 completed
+
+[info 2019/11/01 10:23:55.886 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_52
+
+[info 2019/11/01 10:23:55.886 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_52 completed
+
+[info 2019/11/01 10:23:55.894 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_46
+
+[info 2019/11/01 10:23:55.895 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_46 completed
+
+[info 2019/11/01 10:23:55.908 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_94
+
+[info 2019/11/01 10:23:55.908 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_94 completed
+
+[info 2019/11/01 10:23:55.964 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_112
+
+[info 2019/11/01 10:23:55.964 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_112 completed
+
+[info 2019/11/01 10:23:55.969 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_98
+
+[info 2019/11/01 10:23:55.970 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_98 completed
+
+[info 2019/11/01 10:23:56.004 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_68
+
+[info 2019/11/01 10:23:56.005 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_68 completed
+
+[info 2019/11/01 10:23:56.050 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_91
+
+[info 2019/11/01 10:23:56.050 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_91 completed
+
+[info 2019/11/01 10:23:56.317 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initializing region _B__Cars_48
+
+[info 2019/11/01 10:23:56.317 CET server0 <ServerConnection on port 40404 Thread 0> tid=0x58] Initialization of region _B__Cars_48 completed
+
+[info 2019/11/01 13:59:44.033 CET server0 <Function Execution Processor1> tid=0x53] XmlEntity:searchString: //cache:region[@name='localregion']
+
+[info 2019/11/01 14:00:05.554 CET server0 <Function Execution Processor1> tid=0x53] Initializing region replicatedregion
+
+[info 2019/11/01 14:00:05.593 CET server0 <Function Execution Processor1> tid=0x53] Initialization of region replicatedregion completed
+
+[info 2019/11/01 14:00:05.631 CET server0 <Function Execution Processor1> tid=0x53] XmlEntity:searchString: //cache:region[@name='replicatedregion']
+
+[warning 2019/11/01 23:38:38.911 CET server0 <TransferQueueBundler,Danieles-MBP-50658> tid=0x1a] JGRP000034: 192.168.1.5<v1>:1025: failure sending message to /192.168.1.5: java.io.IOException: Can't assign requested address (sendto failed)
+
+[warning 2019/11/02 00:52:21.904 CET server0 <Geode Heartbeat Sender> tid=0x20] JGRP000034: 192.168.1.5<v1>:1025: failure sending message to /192.168.1.5: java.io.IOException: Can't assign requested address (sendto failed) (received 7 identical messages from /192.168.1.5 in the last 4422898 ms)
+
+[info 2019/11/02 09:12:28.544 CET server0 <Function Execution Processor1> tid=0x53] Received GFSH shutdown. Shutting down member 192.168.1.5(server0:62378)<v1>:1025
+
+[info 2019/11/02 09:12:29.038 CET server0 <pool-3-thread-1> tid=0x74] GemFireCache[id = 798278875; isClosing = true; isShutDownAll = false; created = Fri Nov 01 10:22:58 CET 2019; server = true; copyOnRead = false; lockLease = 120; lockTimeout = 60]: Now closing.
+
+[info 2019/11/02 09:12:29.114 CET server0 <pool-3-thread-1> tid=0x74] Cache server on port 40,404 is shutting down.
+
+[info 2019/11/02 09:12:29.174 CET server0 <pool-3-thread-1> tid=0x74] Rest Server on port 8,080 is shutting down
+
+[info 2019/11/02 09:12:29.176 CET server0 <pool-3-thread-1> tid=0x74] Stopping the HTTP service...
+
+[info 2019/11/02 09:12:29.930 CET server0 <pool-3-thread-1> tid=0x74] Shutting down DistributionManager 192.168.1.5(server0:62378)<v1>:1025. 
+
+[info 2019/11/02 09:12:31.041 CET server0 <pool-3-thread-1> tid=0x74] Now closing distribution for 192.168.1.5(server0:62378)<v1>:1025
+
+[info 2019/11/02 09:12:31.043 CET server0 <pool-3-thread-1> tid=0x74] Stopping membership services
+
+[info 2019/11/02 09:12:31.059 CET server0 <pool-3-thread-1> tid=0x74] GMSHealthMonitor server socket is closed in stopServices().
+
+[info 2019/11/02 09:12:31.065 CET server0 <Geode Failure Detection Server thread 0> tid=0x1f] GMSHealthMonitor server thread exiting
+
+[info 2019/11/02 09:12:31.065 CET server0 <pool-3-thread-1> tid=0x74] GMSHealthMonitor serverSocketExecutor is terminated
+
+[info 2019/11/02 09:12:31.121 CET server0 <pool-3-thread-1> tid=0x74] DistributionManager stopped in 1,188ms.
+
+[info 2019/11/02 09:12:31.121 CET server0 <pool-3-thread-1> tid=0x74] Marking DistributionManager 192.168.1.5(server0:62378)<v1>:1025 as closed.

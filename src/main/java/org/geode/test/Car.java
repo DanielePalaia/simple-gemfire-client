@@ -1,8 +1,9 @@
 /** Rapresent the model */
 
 package org.geode.test;
+import java.io.Serializable;
 
-public class Car  {
+public class Car   {
 
     public Car() {}
 
