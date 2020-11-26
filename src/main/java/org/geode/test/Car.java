@@ -24,7 +24,7 @@ public class Car   {
     }
 
     public String getDate()  {
-        return date;
+        return DateImm;
     }
 
     public void setIdTag(String idTag)  {
@@ -44,7 +44,15 @@ public class Car   {
     }
 
     public void setDate(String date)  {
-        this.date = date;
+        this.DateImm = date;
+    }
+
+       public void setPrice(int price)  {
+        this.price = price;
+    }
+
+    public int getPrice()  {
+        return price;
     }
 
 
@@ -67,5 +75,6 @@ public class Car   {
     private String manufacturer;
     private String model;
     private String colour;
-    private String date;
+    private String DateImm;
+    private int price;
 }

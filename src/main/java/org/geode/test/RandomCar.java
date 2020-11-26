@@ -23,30 +23,35 @@ public class RandomCar extends Car  {
                this.setManufacturer("FCA");
                this.setModel("Panda");
                this.setColour("Red");
+               this.setPrice(10000);
                break;
            case 1:
                this.setDate("2013");
                this.setManufacturer("Alfa Romeo");
                this.setModel("Giulietta");
                this.setColour("Red");
+               this.setPrice(25000);
                break;
            case 2:
                this.setDate("2014");
                this.setManufacturer("Lancia");
                this.setModel("Y");
                this.setColour("White");
+               this.setPrice(20000);
                break;
            case 3:
                this.setDate("2015");
                this.setManufacturer("FCA");
                this.setModel("Punto");
                this.setColour("Yellow");
+               this.setPrice(15000);
                break;
            case 4:
                this.setDate("2016");
                this.setManufacturer("Crysler");
                this.setModel("Pacifica");
                this.setColour("White");
+               this.setPrice(30000);
                break;
        }
    }
