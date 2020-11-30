@@ -63,11 +63,13 @@ cache and regions filled
 
 You should see the regions populated and you can play with them </br>
 
+
+```
 gfsh>query --query='select * from /Cars limit 5';
 Result : true
 Rows   : 5
 
-```
+
 price |                idTag                 | manufacturer |   model   | colour | DateImm
 ----- | ------------------------------------ | ------------ | --------- | ------ | -------
 15000 | 59191a8c-c3f3-44b9-999c-ae4b07672bb3 | FCA          | Punto     | Yellow | 2015
