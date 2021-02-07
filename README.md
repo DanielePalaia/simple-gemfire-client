@@ -10,15 +10,18 @@ Before starting it you mush create a Gemfire cluster </br>
 
 ### Start a simple (non production ready) gemfire locator and a gemfire cache server and enable pdx
 
+```
 start locator --name=locator0 --port=10334</br>
 configure pdx --read-serialized=true</br>
 start server --name=node0 --locators=localhost[10334] --initial-heap=5g --max-heap=5g  --critical-heap-percentage=90 --eviction-heap-percentage=80  --use-cluster-configuration=true</br>
+```
 
 ### Create now the regions Cars and Manufacturers:
 
+```
 create region --name=Cars --type=LOCAL
 create region --name=Manufacturers --type=LOCAL
-
+```
 
 ### Run the software (find in target directory the already compiled .jar) you should now see the regions populated in this way:
 
