@@ -1,5 +1,5 @@
-/Users/dpalaia/ericsson/demo/src/main/java/org/geode/test/GemfireTestsApplication.java
-/Users/dpalaia/ericsson/demo/src/main/java/org/geode/test/GemfireTestsConfiguration.java
-/Users/dpalaia/ericsson/demo/src/main/java/org/geode/test/Scenario.java
-/Users/dpalaia/ericsson/demo/src/main/java/org/geode/test/Car.java
-/Users/dpalaia/ericsson/demo/src/main/java/org/geode/test/RandomCar.java
+/Users/dpalaia/simple-gemfire-client/src/main/java/org/geode/test/GemfireTestsApplication.java
+/Users/dpalaia/simple-gemfire-client/src/main/java/org/geode/test/GemfireTestsConfiguration.java
+/Users/dpalaia/simple-gemfire-client/src/main/java/org/geode/test/RandomCar.java
+/Users/dpalaia/simple-gemfire-client/src/main/java/org/geode/test/Scenario.java
+/Users/dpalaia/simple-gemfire-client/src/main/java/org/geode/test/Car.java
